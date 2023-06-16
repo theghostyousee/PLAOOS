@@ -27,7 +27,7 @@ function clickonbody() {
 window.onload = function() {
         document.getElementsByName("input")[0].addEventListener('change', doThing);
         function doThing() {
-            if (this.value == "JOIN") {
+            if (this.value == "Join") {
                 clickonbody();
             }
       }
