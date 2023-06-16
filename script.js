@@ -30,5 +30,11 @@ window.onload = function() {
             if (this.value == "Join") {
                 clickonbody();
             }
+            if (this.value == "JOIN") {
+                clickonbody();
+            }
+            if (this.value == "join") {
+                clickonbody();
+            }
       }
 }
