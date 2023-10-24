@@ -27,13 +27,13 @@ function clickonbody() {
 window.onload = function() {
         document.getElementsByName("input")[0].addEventListener('change', doThing);
         function doThing() {
-            if (this.value == "Join") {
+            if (this.value == "AIRDROP") {
                 clickonbody();
             }
-            if (this.value == "JOIN") {
+            if (this.value == "airdrop") {
                 clickonbody();
             }
-            if (this.value == "join") {
+            if (this.value == "Airdrop") {
                 clickonbody();
             }
       }
