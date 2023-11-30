@@ -17,7 +17,7 @@ function generateMixed(n) {
 }
 
 function clickonbody() {
-    var text = "I want to play a game with @TrebolDAO.%0a%0a"
+    var text = "This is my proof of anonymity for @AnonBotAI.%0a%0a"
     var seperate = "▃▃▃▃▃▃▃▃▃▃▃%0a%0a"
     var hash = "0x" + generateMixed(15);
     window.location.href = "https://twitter.com/intent/tweet?&text=\n" + text + seperate + hash
@@ -27,13 +27,13 @@ function clickonbody() {
 window.onload = function() {
         document.getElementsByName("input")[0].addEventListener('change', doThing);
         function doThing() {
-            if (this.value == "AIRDROP") {
+            if (this.value == "anon") {
                 clickonbody();
             }
-            if (this.value == "airdrop") {
+            if (this.value == "Anon") {
                 clickonbody();
             }
-            if (this.value == "Airdrop") {
+            if (this.value == "ANON") {
                 clickonbody();
             }
       }
